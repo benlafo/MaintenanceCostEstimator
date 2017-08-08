@@ -1,0 +1,58 @@
+.root{
+    tmblue:#005daa;
+    swxred:#E41C39;
+    -fx-background-color: white;
+}
+
+.chart {
+    -fx-chart-background-fill: white;
+    -fx-legend-side: right;
+}
+
+.chart-title {
+    -fx-font-family: "Segoe UI Bold";
+    -fx-text-fill: black;
+}
+
+.chart-vertical-grid-lines {
+}
+
+.chart-horizontal-grid-lines {
+}
+
+.axis {
+	-fx-tick-label-font-size: 20px;
+    -fx-tick-label-fill: black;
+    -fx-tick-label-font-family: "Segoe UI";
+    -fx-tick-length: 20;
+    -fx-minor-tick-length: 10;
+}
+
+.axis-label {
+   -fx-text-fill: black;
+   -fx-font-family: "Simain Text Orangutan";
+}
+
+.axis-tick-mark, .axis-minor-tick-mark {
+    -fx-stroke: black;
+}
+
+.chart-legend {
+   -fx-background-color:  white;
+   -fx-padding: 130 0 0 0;
+}
+
+.chart-legend-item{
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: black;
+    -fx-font-size: 26px;
+}
+
+.default-color0.chart-area-symbol { -fx-background-color: tmblue, tmblue; }
+.default-color1.chart-area-symbol { -fx-background-color: swxred, swxred; }
+
+.default-color0.chart-series-area-line { -fx-stroke: tmblue; }
+.default-color1.chart-series-area-line { -fx-stroke: swxred; }
+
+.default-color0.chart-series-area-fill { -fx-fill: #005daaaa}
+.default-color1.chart-series-area-fill { -fx-fill: #E41C3933; }

@@ -1,0 +1,295 @@
+.root{
+    tmblue:#005daa;
+    swxred:#E41C39;
+    -fx-background-color: tmblue;
+}
+
+.table-view{
+   -fx-background-color: transparent;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+.table-view .filler{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: #1f497d;
+
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: black;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #b8cce4;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #dce6f1;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #005797;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.table-row-cell:selected .text {
+    -fx-fill: white;
+}
+
+/* The main scrollbar CSS class of ListView */
+.table-view .scroll-bar:horizontal ,
+.table-view  .scroll-bar:vertical{
+}
+
+/* The increment and decrement button CSS class of scrollbar */
+.table-view .increment-button ,.table-view .decrement-button {
+}
+
+/* The main scrollbar **track** CSS class  */
+.table-view .scroll-bar:horizontal .track ,
+.table-view .scroll-bar:vertical .track{
+}
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.table-view .scroll-bar:horizontal .thumb,
+.table-view .scroll-bar:vertical .thumb {
+}
+
+/* The main scrollbar **track** CSS class on event of "hover" and "pressed" */
+.table-view .scroll-bar:horizontal:hover .track ,
+.table-view .scroll-bar:horizontal:pressed .track ,
+.table-view .scroll-bar:vertical:hover .track,
+.table-view .scroll-bar:vertical:pressed .track{
+}
+
+/* The main scrollbar **thumb** CSS class on event of "hover" and "pressed" */
+.table-view .scroll-bar .thumb:hover,
+.table-view .scroll-bar .thumb:pressed{
+}
+
+.table-view .increment-button:hover ,
+.table-view .decrement-button:hover {
+}
+
+#submitCol {
+	-fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color:
+        #000000,
+        linear-gradient(#7ebcea, #2f4b8f),
+        linear-gradient(#426ab7, #263e75),
+        linear-gradient(#395cab, #223768);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-family: "Simain Text Orangutan";
+}
+
+.button:hover {
+    -fx-background-color:
+            #000000,
+            linear-gradient(#2f4b8f, #7ebcea),
+            linear-gradient(#263e75, #426ab7),
+            linear-gradient(#223768, #395cab);
+}
+
+#dspage {
+	-fx-font-size: 14px;
+}
+
+#add {
+    -fx-padding: 6 30 6 30;
+}
+
+#maint {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 11.7px;
+    -fx-padding: 6 6 6 6;
+}
+
+#viewparts {
+    -fx-padding: 6 6 6 6;
+}
+
+#tableBtn {
+	-fx-font-family: "Segoe UI";
+    -fx-font-size: 12px;
+    -fx-padding: 3 10 3 10 ;
+    -fx-text-fill: white;
+    -fx-background-image: url('/application/java/check.png');
+}
+
+#sidebar {
+	-fx-pref-width: 140px;
+}
+
+#zoom {
+	-fx-font-size: 30px;
+	-fx-padding: 3 21 3 21;
+}
+
+.check-box {
+	-fx-font-family: "Segoe UI Bold";
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.label {
+     -fx-text-fill: white;
+     -fx-font-family: "Simain Display Chimpanzee";
+}
+
+#header {
+    -fx-font-size: 20px;
+}
+
+#tmheader {
+    -fx-font-size: 16px;
+    -fx-text-fill: #f2c21c;
+}
+
+#swxheader {
+    -fx-font-size: 16px;
+    -fx-text-fill: swxred;
+}
+
+#dataentry {
+    -fx-font-size: 14px;
+    -fx-font-family: "Simain Text Orangutan";
+}
+
+#smallheader {
+    -fx-font-size: 16px;
+    -fx-text-alignment: center;
+}
+
+#subtext {
+    -fx-font-size: 12px;
+}
+
+.combo-box {
+    -fx-border-radius: 5px;
+    -fx-background-color: white;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover {
+    -fx-background-color: tmblue;
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected {
+    -fx-background-color: tmblue;
+}
+
+.radio-button .radio {
+    -fx-border-width: 1px;
+    -fx-border-color: #000;
+    -fx-background-color: white;
+    -fx-background-image: null;
+    -fx-border-radius: 15px;
+    -fx-padding: 2px;
+}
+.radio-button .radio:selected {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:armed {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:determinate {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:indeterminate {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button .dot {
+    -fx-background-radius: 15px;
+    -fx-padding: 3px;
+}
+
+.chart {
+    -fx-chart-background-fill: white;
+}
+
+.chart-title {
+    -fx-font-family: "Segoe UI Bold";
+    -fx-text-fill: white;
+}
+
+.chart-vertical-grid-lines {
+}
+
+.chart-horizontal-grid-lines {
+}
+
+.axis {
+    -fx-font-size: 20px;
+    -fx-tick-label-fill: white;
+    -fx-font-family: "Segoe UI";
+    -fx-tick-length: 10;
+    -fx-minor-tick-length: 5;
+}
+
+.axis-label {
+   -fx-text-fill: white;
+}
+
+.axis-tick-mark, .axis-minor-tick-mark {
+    -fx-stroke: white;
+}
+
+.chart-legend {
+   -fx-background-color:  white;
+}
+
+.chart-legend-item{
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: black;
+}
+
+.default-color0.chart-area-symbol { -fx-background-color: tmblue, tmblue; }
+.default-color1.chart-area-symbol { -fx-background-color: swxred, swxred; }
+
+.default-color0.chart-series-area-line { -fx-stroke: tmblue; }
+.default-color1.chart-series-area-line { -fx-stroke: swxred; }
+
+.default-color0.chart-series-area-fill { -fx-fill: #005daaaa}
+.default-color1.chart-series-area-fill { -fx-fill: #E41C3933; }
+
+.tooltip {
+	-fx-font-size: 12px;
+	-fx-font-family: "Segoe UI";
+}
+
+.labor-grid-cell {
+	-fx-border-color: white;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-padding: 2 5 2 5;
+}
